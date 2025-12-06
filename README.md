@@ -50,6 +50,75 @@ If no alert exists, shows:
 
 ---
 
-## 📁Project Structure
+## Installation & Run
+Prerequisites
+
+Python 3.8+ installed
+An OpenWeather API key (get one at https://openweathermap.org/
+).
+Do not commit your API key to the repo.
+
+1. Clone the repository
+git clone https://github.com/sharedee2776/Weather_app_project.git
+cd Weather_app_project
+
+2. (Optional but recommended) Create a virtual environment
+-  Windows — Command Prompt
+
+python -m venv venv
+venv\Scripts\activate 
+
+-  Windows — PowerShell
+
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+-  macOS / Linux
+
+python3 -m venv venv
+source venv/bin/activate
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+- If pip is not recognized:
+
+python -m pip install -r requirements.txt
+
+4. Add your API key 
+-- Create a file named .env in the project root:
+
+API_KEY=your_openweather_api_key_here
+
+.env is ignored in .gitignore — safe for development.
+
+5. Run the app
+
+python app.py
+
+You should see:
+
+ * Running on http://127.0.0.1:5000
+ * Debug mode: on
+
+Open your browser and visit:
+
+ http://127.0.0.1:5000/
+
+ 6. Test the app
+
+Try cities like:
+
+London
+
+New York
+
+Nairobi
+
+
+
+
+
 
 
