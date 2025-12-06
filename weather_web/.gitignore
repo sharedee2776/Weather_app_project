@@ -1,0 +1,31 @@
+# ---> Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+
+# dotenv files (API keys, secrets)
+.env
+.env.local
+.env.production
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
