@@ -118,6 +118,9 @@ Nairobi
 
 https://weather-app-project-mswz.onrender.com
 
+Contact;
+damoladauda10@gmail.com
+
 
 
 
